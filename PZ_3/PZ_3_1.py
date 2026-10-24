@@ -2,7 +2,7 @@
 while True:
     try:
         n = int(input("Введите двузначное чётное число: "))
-        break
+        break # ввод удался
     except ValueError:
         print("Надо ввести целое число")
 if 9 < n <= 99 and n % 2 == 0:
